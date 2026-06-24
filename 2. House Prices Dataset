@@ -1,0 +1,6 @@
+prices = [2500000, 3000000, 2800000]
+total_price=0
+for price in prices:
+                    total_price+=price
+average_price=total_price/len(prices)
+print(f"Average House Price: {average_price}")
