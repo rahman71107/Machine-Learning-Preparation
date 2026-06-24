@@ -1,0 +1,6 @@
+heights = [165, 172, 180, 168, 175]
+total_height=0
+for height in heights:
+                    total_height+=height
+average_height=total_height/(len(heights))
+print(f"Average Height: {average_height}")
